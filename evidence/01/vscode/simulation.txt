@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab2_01_counter\src -I C:\Users\a2391\lab2_01_counter\sim -s tb_counter4 -o C:\Users\a2391\lab2_01_counter\build\sim\run-300aa35cfebb4069a2aff7f4b33252ed\sim.vvp C:\Users\a2391\lab2_01_counter\src\counter4.v C:\Users\a2391\lab2_01_counter\src\input_fronted.v C:\Users\a2391\lab2_01_counter\src\lab2_counter.v C:\Users\a2391\lab2_01_counter\sim\tb_counter4.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab2_01_counter\build\sim\run-300aa35cfebb4069a2aff7f4b33252ed\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS counter4 checks=36
+C:\Users\a2391\lab2_01_counter\sim\tb_counter4.sv:21: $finish called at 356000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab2_01_counter\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
